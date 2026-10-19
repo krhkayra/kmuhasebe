@@ -1,0 +1,18 @@
+[package]
+name = "accounting"
+version = "0.1.0"
+edition = "2021"
+description = "Aylık gelir/gider takibi (Qt 6 + Kirigami, Breeze)"
+
+# Bağımlılıklar bilinçli olarak minimumda tutuldu:
+#  - cxx / cxx-qt / cxx-qt-lib : Rust <-> Qt köprüsü (zorunlu)
+#  - serde / serde_json        : veri dosyası ve QML'e JSON aktarımı
+[dependencies]
+cxx = "1"
+cxx-qt = "0.7"
+cxx-qt-lib = { version = "0.7", features = ["qt_gui", "qt_qml"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[build-dependencies]
+cxx-qt-build = "0.7"
