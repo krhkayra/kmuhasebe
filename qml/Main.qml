@@ -7,7 +7,7 @@ import io.github.kayra.accounting
 Kirigami.ApplicationWindow {
     id: root
 
-    title: "accounting"
+    title: "kmuhasebe"
     width: Kirigami.Units.gridUnit * 50
     height: Kirigami.Units.gridUnit * 36
     minimumWidth: Kirigami.Units.gridUnit * 36
