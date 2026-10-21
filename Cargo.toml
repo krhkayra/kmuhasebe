@@ -3,6 +3,13 @@ name = "accounting"
 version = "0.1.0"
 edition = "2021"
 description = "Aylık gelir/gider takibi (Qt 6 + Kirigami, Breeze)"
+license = "GPL-3.0"
+homepage = "https://github.com/krhkayra/kmuhasebe"
+repository = "https://github.com/krhkayra/kmuhasebe"
+authors = [
+	"Kayra <https://github.com/krhkayra>"
+]
+
 
 # Bağımlılıklar bilinçli olarak minimumda tutuldu:
 #  - cxx / cxx-qt / cxx-qt-lib : Rust <-> Qt köprüsü (zorunlu)
